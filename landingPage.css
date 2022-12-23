@@ -10,8 +10,10 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h6 {
     font-weight: 500;
+    color: #111235;
 }
 
 h1 {
@@ -26,6 +28,14 @@ h2 {
 
 h3 {
     font-size: 32px;
+}
+
+h5 {
+    color: #111235;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px;
 }
 
 h6 {
@@ -72,6 +82,7 @@ p {
     border-radius: 50px;
     margin: 30px auto;
     font-weight: 600;
+    text-align: center;
 }
 
 .btn-primary {
@@ -102,6 +113,24 @@ p {
     justify-content: center;
 }
 
+.panel {
+    border-radius: 30px;
+    padding: 60px 40px;
+    margin-bottom: 20px;
+}
+
+.panel h5 {
+    width: 85%;
+}
+
+.panel-blue {
+    background-color: #e4f0ff;
+}
+
+.panel-purple {
+    background-color: rgba(114, 122, 240, 0.1);
+}
+
 /* Modifier classes -- single style */
 .bp-100 {
     padding-bottom: 100px;
@@ -109,4 +138,31 @@ p {
 
 .tp-80 {
     padding-top: 80px;
+}
+
+.bm-40 {
+    margin-bottom: 40px;
+}
+
+
+
+
+.card {
+    background-color: lightblue;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 60px 40px;
+    text-align: left;
+}
+
+.card p {
+    padding: 20px 10px;
+}
+
+.bg-1 {
+    background-color: #E4F0FF;
+}
+
+.bg-2 {
+    background-color: #727AEF1A;
 }
